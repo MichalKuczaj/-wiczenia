@@ -1,0 +1,2 @@
+# -wiczenia
+Proste programy

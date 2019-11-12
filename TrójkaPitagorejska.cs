@@ -23,7 +23,23 @@ namespace TrójkaPitagorejska
             Console.WriteLine("Podaj c. ");
             c = int.Parse(Console.ReadLine());
 
-            
+            if ((a * a + b * b) == c * c)
+            {
+                Console.Write("Liczby");
+                Console.Write("a = " + a + " , ");
+                Console.Write("b = " + b + " , ");
+                Console.Write("c = " + c);
+                Console.Write(" są trójką pitagorejską");
+            }
+            else
+            {
+                Console.Write("Liczby");
+                Console.Write("a = " + a + " , ");
+                Console.Write("b = " + b + " , ");
+                Console.Write("c = " + c );
+                Console.Write(" nie są trójką pitagorejską");
+            }
+            Console.ReadLine();
         }
     }
 }
